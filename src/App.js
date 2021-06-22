@@ -1,18 +1,19 @@
-import logo from './logo.svg';
-import './App.scss';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function landingPage() {
+function App() {
   return (
-    <div className="navbar">
+    <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Duckflix</h1>
+        <img src='assets/images/temp-duckflix-logo.png' className="App-logo" alt="logo" />
+        <br></br>
         <p>
-          Hi there
+          Coming soon to a home theatre near you...
         </p>
       </header>
     </div>
   );
 }
 
-export default landingPage;
+export default App;
