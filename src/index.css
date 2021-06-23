@@ -16,3 +16,8 @@ code {
   font-family: 'Ubuntu Condensed';
   src: local('Ubuntu Condensed'), url(./fonts/UbuntuCondensed-Regular.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: local('Montserrat Alternates'), url(./fonts/MontserratAlternates-Regular.ttf) format('truetype');
+}
