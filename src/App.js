@@ -1,5 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -14,7 +16,12 @@ function App() {
         Coming soon to a home theatre near you...
         </p>
       </section>
-      <footer>Find us on Github!</footer>
+      <footer>
+        <a href='https://github.com/duckflix'>
+          <p><i className='githubIcon'><FontAwesomeIcon icon={faGithub} /></i>
+          Find us on Github!</p>
+        </a>
+      </footer>
     </div>
   );
 }

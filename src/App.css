@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 100%;
 }
 
 header, footer {
@@ -8,12 +9,24 @@ header, footer {
   width: 100vw;
   z-index: 1;
   color: white;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 1vh;
 }
 
 header {
   padding: 3vh;
+}
+
+footer p {
+  color: white;
+  font-size: calc(0.75rem + 0.25vw);
+  font-family: 'Ubuntu Condensed';
+}
+
+footer a {
+  font-family: 'Ubuntu Condensed';
+  color:rgb(101, 213, 232);
+  cursor: pointer;
 }
 
 .App-logo {
@@ -42,6 +55,14 @@ header {
 .landing-body h1 {
   color: rgb(101, 213, 232);
   font-family: 'Ubuntu Condensed';
+  font-size: calc(1.5rem + 3.6vw)
+
+}
+
+.landing-body p {
+  font-family: 'Montserrat Alternative';
+  color: white;
+  font-size: calc(1rem + 0.6vw);
 }
 
 .App-link {
@@ -55,4 +76,9 @@ header {
   to {
     transform: rotate(360deg);
   }
+}
+
+.githubIcon {
+  padding-right: .5rem;
+  color:rgb(101, 213, 232);
 }
