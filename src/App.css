@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
   font-size: 100%;
+  font-family: 'Ubuntu Condensed';
 }
 
 header, footer {
@@ -11,6 +11,7 @@ header, footer {
   color: white;
   /* overflow: hidden; */
   padding: 1vh;
+  text-align: center;
 }
 
 header {
@@ -20,24 +21,16 @@ header {
 footer p {
   color: white;
   font-size: calc(0.75rem + 0.25vw);
-  font-family: 'Ubuntu Condensed';
 }
 
 footer a {
-  font-family: 'Ubuntu Condensed';
   color:rgb(101, 213, 232);
   cursor: pointer;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .landing-body {
@@ -45,37 +38,25 @@ footer a {
   height: 94vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+  padding-left: 5%;
   color: white;
   overflow: hidden;
 }
 
 .landing-body h1 {
   color: rgb(101, 213, 232);
-  font-family: 'Ubuntu Condensed';
-  font-size: calc(1.5rem + 3.6vw)
-
+  font-size: calc(4rem + 5vw)
 }
 
 .landing-body p {
-  font-family: 'Montserrat Alternative';
   color: white;
-  font-size: calc(1rem + 0.6vw);
+  font-size: calc(1rem + 1vw);
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .githubIcon {
