@@ -8,12 +8,13 @@ function App() {
     <div className="App">
       <header></header>
       <section className="landing-body">
-        <h1>Duckflix</h1>
-        <br></br>
-        <img src='assets/images/temp-duckflix-logo.png' className="App-logo" alt="logo" />
-        <br></br>
+        <h1>Duckflix
+          <img src='assets/images/temp-duckflix-logo.png' className="App-logo" alt="logo" />
+        </h1>
         <p>
-        Coming soon to a home theatre near you...
+          Coming soon to a home theatre near you...
+          <br></br>
+          an open source, minimalist stack for private media consumption.
         </p>
       </section>
       <footer>
